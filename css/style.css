@@ -43,8 +43,8 @@ form {
 form button {
   padding: 0 1em;
   font-size: 1em;
-  background: #7bcbc4;
-  border-radius: .2em;
+  background: deeppink;
+  border-radius: 22px;
 }
 ul {
   list-style: none;
@@ -69,11 +69,11 @@ button {
 }
 header {
   text-align: center;
-  background: linear-gradient(90deg, #d4eece, #55b3d0, #1e7eb7),
-              url('../images/header-bg.jpg') no-repeat;
-              background-blend-mode: multiply;    
-              background-size: cover;   
+  background: linear-gradient(90deg, #dedede, #be55d0, #8ab91a), url(../images/header-bg.jpg) no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
 }
+
 header input {
   padding: 12px;
   font-size: 1.15em;
@@ -106,10 +106,10 @@ li button {
   border-radius: .3em;
   padding: .4em .6em;
   color: white;
-  background: #58b7cd;
+  background: deeppink;
 }
 li button:last-child {
-  background: rgba(88, 183, 205, .5);
+  background: rgb(226, 194, 42);
 }
 .wrapper {
   width: 100%;
@@ -131,11 +131,11 @@ div > label {
 /* responded */
 .responded {
   transition: 0.4s;
-  border-color: rgba(88, 183, 205, .9);
+  border-color: #ff14933b;
 }
 .responded label {
   transition: 0.4s;
-  color: rgba(88, 183, 205, 1);
+  color: #8ab91a;
 }
 
 /* ================================= 
