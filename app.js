@@ -68,6 +68,7 @@ form.addEventListener('submit', (e) => {
     removeButton.textContent = 'remove';
     li.appendChild(removeButton);
 
+
     ul.appendChild(li);
 });
 
